@@ -16,7 +16,7 @@ https
                 cases: JSON.parse(data).casos,
                 deaths: JSON.parse(data).mortes
             }
-            console.log(df)
+            console.log(df) // retorna todos os dados
     })
     .on("error", err => {
         console.log("Error: " + err.message)

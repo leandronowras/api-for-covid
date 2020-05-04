@@ -30,7 +30,7 @@ https
                 brazil[key];
               });
               
-              console.log(brazil);
+              console.log(brazil); // retorna todos os dados
         })
     })
     .on("error", err => {

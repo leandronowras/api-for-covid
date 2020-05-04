@@ -27,7 +27,7 @@ https
             world[key];
             });
             
-            console.log(world);
+            console.log(world); // retorna todos os dados
     })
     })
 
