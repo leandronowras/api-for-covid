@@ -12,7 +12,7 @@ https
 
         res.on("end", () => {
             let world ={
-                totalCases : JSON.parse(data).updated,
+                totalCases : JSON.parse(data).cases,
                 active : JSON.parse(data).active,
                 todayCases : JSON.parse(data).todayCases,
 
